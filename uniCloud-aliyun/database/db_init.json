@@ -1,0 +1,35 @@
+// 在本文件中可配置云数据库初始化，数据格式见：https://uniapp.dcloud.io/uniCloud/hellodb?id=db-init
+// 编写完毕后对本文件点右键，可按配置规则创建表和添加数据
+{
+    "user": {
+        "data": [
+            {
+                "_id": "608be2ce4c73e7000171120b",
+                "openid": "123456",
+                "like": [
+                    1,
+                    2
+                ]
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                },
+                "openid": {
+                    "description": "openid微信小程序用户唯一标识"
+                },
+                "like": []
+            }
+        }
+    }
+}
